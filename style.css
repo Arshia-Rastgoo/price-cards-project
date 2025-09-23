@@ -26,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 40px 15px;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 .container {
   width: 100%;
@@ -38,7 +38,7 @@ header {
   margin-bottom: 50px;
 }
 header h1 {
-  font-size: 2.5 rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
   background: linear-gradient(
     to right,
@@ -60,6 +60,7 @@ header p {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   margin-bottom: 60px;
+  height: auto;
 }
 .card {
   background-color: var(--card-bg);
@@ -138,9 +139,8 @@ h3 {
   align-items: center;
 }
 .features li i {
-  margin-right: 15px;
-  display: flex;
-  align-items: center;
+  margin-right: 10px;
+
   font-size: 0.9rem;
 }
 .features li i.fa-check {
